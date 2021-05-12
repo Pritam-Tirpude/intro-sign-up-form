@@ -1,0 +1,49 @@
+@import "global";
+@import "container";
+
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+  color: $neutral_white;
+}
+.attribution a {
+  color: hsl(249, 10%, 26%);
+}
+
+@media screen and (max-width: 1024px) {
+  .signup-container {
+    margin: auto;
+    padding: 0rem;
+    margin-top: 20rem;
+    @include flex(center, center, column);
+    .form-text {
+      text-align: center;
+      h1 {
+        font-size: $header3;
+        line-height: 3rem;
+      }
+      br {
+        display: none;
+      }
+    }
+
+    .form-content {
+      width: 100%;
+
+      .promo-btn {
+        width: 100%;
+        padding: 2rem;
+      }
+      .form-container {
+        input {
+          width: 300px;
+        }
+
+        .btn-submit {
+          padding: 1rem;
+          width: 300px;
+        }
+      }
+    }
+  }
+}

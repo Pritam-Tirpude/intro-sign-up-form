@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="signup-container">
+          <div class="form-text">
+            <h1>
+              Learn to code by <br />
+              watching others
+            </h1>
+            <p>
+              See how experienced developers solve problems in real-time. <br />
+              Watching scripted tutorials is great, but understanding how <br />
+              developers think is invaluable.
+            </p>
+          </div>
+          <div class="form-container">
+            <button class="promo-btn">
+              Try it free 7 days
+              <span class="span-btn">then $20/mo. thereafter</span>
+            </button>
+            <div class="form-fields">
+              <div class="first-name">
+                <form>
+                  <input type="text" id="firstname" placeholder="First Name" />
+                  <img src="./images/icon-error.svg" alt="" id="ErrorIconOne" />
+                </form>
+                <span id="ErrorFirstName">Error</span>
+              </div>
+
+              <div class="last-name">
+                <form>
+                  <input type="text" id="lastname" placeholder="Last Name" />
+                  <img src="./images/icon-error.svg" alt="" id="ErrorIconTwo" />
+                </form>
+                <span id="ErrorLastName">Error</span>
+              </div>
+
+              <div class="email">
+                <form>
+                  <input type="email" id="email" placeholder="Email Address" />
+                  <img
+                    src="./images/icon-error.svg"
+                    alt=""
+                    id="ErrorIconThree"
+                  />
+                </form>
+                <span id="ErrorEmail">Error</span>
+              </div>
+
+              <div class="password">
+                <form>
+                  <input type="password" id="password" placeholder="Password" />
+                  <img
+                    src="./images/icon-error.svg"
+                    alt=""
+                    id="ErrorIconFour"
+                  />
+                </form>
+                <span id="ErrorPassword">Error</span>
+              </div>
+
+              <div class="submit-button">
+                <form action="#">
+                  <button type="submit" id="submitBtn">
+                    Claim Your Free Trial
+                  </button>
+                </form>
+                <p>
+                  By clicking the button, you are agreeing to our
+                  <span class="term-serv">Terms and Services</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Pritam-Tirpude" target="_blank"
+          >Pritam Tirpude</a
+        >.
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,323 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background: url("../images/bg-intro-desktop.png") no-repeat center/cover #ff7a7a;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.signup-container {
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.signup-container .form-text {
+  padding: 1rem 2rem;
+}
+
+.signup-container .form-text h1 {
+  font-size: 4rem;
+  color: white;
+  line-height: 4rem;
+}
+
+.signup-container .form-text p {
+  margin-top: 3rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.signup-container .form-container {
+  padding: 2rem;
+}
+
+.signup-container .form-container .promo-btn {
+  padding: 2rem 10rem;
+  border: none;
+  background: #6055a5;
+  border-radius: 1rem;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.signup-container .form-container .promo-btn:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+}
+
+.signup-container .form-container .promo-btn .span-btn {
+  color: #b9b6d3;
+  font-weight: lighter;
+}
+
+.signup-container .form-container .form-fields {
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
+  background: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+}
+
+.signup-container .form-container .form-fields .first-name {
+  position: relative;
+}
+
+.signup-container .form-container .form-fields .first-name form input[type="text"] {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #b9b6d3;
+  border-radius: 0.5rem;
+  color: #3e3c49;
+  font-family: "Poppins", sans-serif;
+  font-weight: 750;
+}
+
+.signup-container .form-container .form-fields .first-name form input[type="text"]:focus {
+  outline: none;
+  border: 1px solid #3e3c49;
+}
+
+.signup-container .form-container .form-fields .first-name form img {
+  position: absolute;
+  top: 23%;
+  left: 90%;
+}
+
+.signup-container .form-container .form-fields .first-name #ErrorIconOne {
+  visibility: hidden;
+}
+
+.signup-container .form-container .form-fields .first-name #ErrorFirstName {
+  display: none;
+  text-align: right;
+}
+
+.signup-container .form-container .form-fields .last-name {
+  margin-top: 1rem;
+  position: relative;
+}
+
+.signup-container .form-container .form-fields .last-name form input[type="text"] {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #b9b6d3;
+  border-radius: 0.5rem;
+  color: #3e3c49;
+  font-family: "Poppins", sans-serif;
+  font-weight: 750;
+}
+
+.signup-container .form-container .form-fields .last-name form input[type="text"]:focus {
+  outline: none;
+  border: 1px solid #3e3c49;
+}
+
+.signup-container .form-container .form-fields .last-name form img {
+  position: absolute;
+  top: 23%;
+  left: 90%;
+}
+
+.signup-container .form-container .form-fields .last-name #ErrorIconTwo {
+  visibility: hidden;
+}
+
+.signup-container .form-container .form-fields .last-name #ErrorLastName {
+  display: none;
+  text-align: right;
+}
+
+.signup-container .form-container .form-fields .email {
+  margin-top: 1rem;
+  position: relative;
+}
+
+.signup-container .form-container .form-fields .email form input[type="email"] {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #b9b6d3;
+  border-radius: 0.5rem;
+  color: #3e3c49;
+  font-family: "Poppins", sans-serif;
+  font-weight: 750;
+}
+
+.signup-container .form-container .form-fields .email form input[type="email"]:focus {
+  outline: none;
+  border: 1px solid #3e3c49;
+}
+
+.signup-container .form-container .form-fields .email form img {
+  position: absolute;
+  top: 23%;
+  left: 90%;
+}
+
+.signup-container .form-container .form-fields .email #ErrorIconThree {
+  visibility: hidden;
+}
+
+.signup-container .form-container .form-fields .email #ErrorEmail {
+  display: none;
+  text-align: right;
+}
+
+.signup-container .form-container .form-fields .password {
+  margin-top: 1rem;
+  position: relative;
+}
+
+.signup-container .form-container .form-fields .password form input[type="password"] {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #b9b6d3;
+  border-radius: 0.5rem;
+  color: #3e3c49;
+  font-family: "Poppins", sans-serif;
+  font-weight: 750;
+}
+
+.signup-container .form-container .form-fields .password form input[type="password"]:focus {
+  outline: none;
+  border: 1px solid #3e3c49;
+}
+
+.signup-container .form-container .form-fields .password form img {
+  position: absolute;
+  top: 23%;
+  left: 90%;
+}
+
+.signup-container .form-container .form-fields .password #ErrorIconFour {
+  visibility: hidden;
+}
+
+.signup-container .form-container .form-fields .password #ErrorPassword {
+  display: none;
+  text-align: right;
+}
+
+.signup-container .form-container .form-fields .submit-button {
+  margin-top: 2rem;
+}
+
+.signup-container .form-container .form-fields .submit-button form button[type="submit"] {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #38cc8c;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.signup-container .form-container .form-fields .submit-button form button[type="submit"]:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+}
+
+.signup-container .form-container .form-fields .submit-button p {
+  margin-top: 1rem;
+  text-align: center;
+  color: #b9b6d3;
+}
+
+.signup-container .form-container .form-fields .submit-button .term-serv {
+  color: #ff7a7a;
+  font-weight: bolder;
+}
+
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: #3e3c49;
+}
+
+@media screen and (max-width: 1024px) {
+  .signup-container {
+    margin: auto;
+    padding: 0rem;
+    margin-top: 20rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .signup-container .form-text {
+    text-align: center;
+  }
+  .signup-container .form-text h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .signup-container .form-text br {
+    display: none;
+  }
+  .signup-container .form-content {
+    width: 100%;
+  }
+  .signup-container .form-content .promo-btn {
+    width: 100%;
+    padding: 2rem;
+  }
+  .signup-container .form-content .form-container input {
+    width: 300px;
+  }
+  .signup-container .form-content .form-container .btn-submit {
+    padding: 1rem;
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

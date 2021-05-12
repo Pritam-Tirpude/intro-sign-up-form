@@ -1,0 +1,41 @@
+$header1: 4rem;
+$header2: 3.5rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$header5: 1.5rem;
+$header6: 1rem;
+
+$primary_red: hsl(0, 100%, 74%);
+$primary_green: hsl(154, 59%, 51%);
+
+$accent_blue: hsl(248, 32%, 49%);
+
+$neutral_dark_blue: hsl(249, 10%, 26%);
+$neutral_grayish_blue: hsl(246, 25%, 77%);
+$neutral_white: hsl(0, 0%, 100%);
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background: url("../images/bg-intro-desktop.png") no-repeat center/cover
+    $primary_red;
+  font-family: "Poppins", sans-serif;
+}

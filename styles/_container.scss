@@ -1,0 +1,225 @@
+main {
+  min-height: 100vh;
+}
+
+.signup-container {
+  padding: 5rem;
+  @include flex(center, center, row);
+
+  .form-text {
+    padding: 1rem 2rem;
+    h1 {
+      font-size: $header1;
+      color: $neutral_white;
+      line-height: 4rem;
+    }
+    p {
+      margin-top: 3rem;
+      color: $neutral_white;
+      font-size: $header5;
+    }
+  }
+
+  .form-container {
+    padding: 2rem;
+
+    .promo-btn {
+      padding: 2rem 10rem;
+      border: none;
+      background: $accent_blue;
+      border-radius: 1rem;
+      cursor: pointer;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      color: $neutral_white;
+
+      &:hover {
+        filter: brightness(120%);
+      }
+
+      .span-btn {
+        color: $neutral_grayish_blue;
+        font-weight: lighter;
+      }
+    }
+
+    .form-fields {
+      padding: 2rem;
+      margin-top: 3rem;
+      border-radius: 1rem;
+      background: $neutral_white;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+      position: relative;
+
+      .first-name {
+        position: relative;
+        form input[type="text"] {
+          width: 100%;
+          padding: 2rem;
+          border: 1px solid $neutral_grayish_blue;
+          border-radius: 0.5rem;
+          color: $neutral_dark_blue;
+          font-family: "Poppins", sans-serif;
+          font-weight: 750;
+
+          &:focus {
+            outline: none;
+            border: 1px solid $neutral_dark_blue;
+          }
+        }
+
+        form img {
+          position: absolute;
+          top: 23%;
+          left: 90%;
+        }
+
+        #ErrorIconOne {
+          visibility: hidden;
+        }
+
+        #ErrorFirstName {
+          display: none;
+          text-align: right;
+        }
+      }
+
+      .last-name {
+        margin-top: 1rem;
+        position: relative;
+        form input[type="text"] {
+          width: 100%;
+          padding: 2rem;
+          border: 1px solid $neutral_grayish_blue;
+          border-radius: 0.5rem;
+          color: $neutral_dark_blue;
+          font-family: "Poppins", sans-serif;
+          font-weight: 750;
+
+          &:focus {
+            outline: none;
+            border: 1px solid $neutral_dark_blue;
+          }
+        }
+
+        form img {
+          position: absolute;
+          top: 23%;
+          left: 90%;
+        }
+
+        #ErrorIconTwo {
+          visibility: hidden;
+        }
+
+        #ErrorLastName {
+          display: none;
+          text-align: right;
+        }
+      }
+
+      .email {
+        margin-top: 1rem;
+        position: relative;
+        form input[type="email"] {
+          width: 100%;
+          padding: 2rem;
+          border: 1px solid $neutral_grayish_blue;
+          border-radius: 0.5rem;
+          color: $neutral_dark_blue;
+          font-family: "Poppins", sans-serif;
+          font-weight: 750;
+
+          &:focus {
+            outline: none;
+            border: 1px solid $neutral_dark_blue;
+          }
+        }
+
+        form img {
+          position: absolute;
+          top: 23%;
+          left: 90%;
+        }
+
+        #ErrorIconThree {
+          visibility: hidden;
+        }
+
+        #ErrorEmail {
+          display: none;
+          text-align: right;
+        }
+      }
+
+      .password {
+        margin-top: 1rem;
+        position: relative;
+        form input[type="password"] {
+          width: 100%;
+          padding: 2rem;
+          border: 1px solid $neutral_grayish_blue;
+          border-radius: 0.5rem;
+          color: $neutral_dark_blue;
+          font-family: "Poppins", sans-serif;
+          font-weight: 750;
+
+          &:focus {
+            outline: none;
+            border: 1px solid $neutral_dark_blue;
+          }
+        }
+
+        form img {
+          position: absolute;
+          top: 23%;
+          left: 90%;
+        }
+
+        #ErrorIconFour {
+          visibility: hidden;
+        }
+
+        #ErrorPassword {
+          display: none;
+          text-align: right;
+        }
+      }
+
+      .submit-button {
+        margin-top: 2rem;
+        form button[type="submit"] {
+          width: 100%;
+          margin-top: 1rem;
+          padding: 2rem;
+          border-radius: 1rem;
+          background: $primary_green;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          border: none;
+          color: $neutral_white;
+          cursor: pointer;
+          font-family: "Poppins", sans-serif;
+          font-weight: bold;
+          text-transform: uppercase;
+
+          &:hover {
+            filter: brightness(120%);
+          }
+        }
+
+        p {
+          margin-top: 1rem;
+          text-align: center;
+          color: $neutral_grayish_blue;
+        }
+
+        .term-serv {
+          color: $primary_red;
+          font-weight: bolder;
+        }
+      }
+    }
+  }
+}
