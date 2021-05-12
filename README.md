@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Intro Component With Sign Up Form](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100/hub/html5-css3-flex-sass-gsap-wb2FMUKKv)
-- Live Site URL: [Live Site](https://huddle-alternate-blocks.netlify.app/)
+- Solution URL: [Intro Component With Sign Up Form](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1/hub/html5-css3-sass-javascript-jLFTDMEXu)
+- Live Site URL: [Live Site](https://intro-sign-up.netlify.app//)
 
 ## My process
 
