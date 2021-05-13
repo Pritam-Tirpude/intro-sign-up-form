@@ -18,6 +18,16 @@ const passwordInput = document.querySelector("#password");
 const errorIconFour = document.querySelector("#ErrorIconFour");
 const labelErrorPassword = document.querySelector("#ErrorPassword");
 
+//Animation part
+const formText = document.querySelector(".form-text");
+const formContainer = document.querySelector(".form-container");
+const animeTimeline = gsap.timeline({
+  defaults: { duration: 2.5, ease: "back.inOut(1.7)" },
+});
+gsap.fromTo(formText, { opacity: 0, x: "100%" }, { opacity: 1, x: "0%" });
+gsap.fromTo(formContainer, { opacity: 0, y: "100%" }, { opacity: 1, y: "0%" });
+
+//Listener to check errors in form
 submitButton.addEventListener("click", checkErrors);
 
 function checkErrors(e) {

@@ -1,9 +1,9 @@
 main {
   min-height: 100vh;
+  @include flex(center, center, column);
 }
 
 .signup-container {
-  padding: 5rem;
   @include flex(center, center, row);
 
   .form-text {
@@ -11,7 +11,7 @@ main {
     h1 {
       font-size: $header1;
       color: $neutral_white;
-      line-height: 4rem;
+      line-height: 5rem;
     }
     p {
       margin-top: 3rem;
